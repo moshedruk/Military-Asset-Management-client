@@ -12,7 +12,6 @@ namespace Military_Asset_Management_client.Controllers
         {
             _logger = logger;
         }
-
         public IActionResult Index()
         {
             return View();
